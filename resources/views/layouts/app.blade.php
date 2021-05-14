@@ -14,7 +14,7 @@
 
 </head>
 <body class="loading">
-    @includeIf('layouts.partials.loanding')
+
     <div class="page-wrapper">
         @section('navbar')
             <!-- .navbar -->
@@ -30,10 +30,6 @@
 
         <!-- PAGE:CONTENT  -->
         <main id="content" class="h-100">
-
-            <!-- .alert -->
-            @includeIf('flash::message')
-            <!-- / .alert -->
 
             <!-- .content -->
             @yield('content')
